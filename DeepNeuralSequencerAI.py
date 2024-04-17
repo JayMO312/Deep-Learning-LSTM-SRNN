@@ -17,7 +17,7 @@ filename = os.path.basename(__file__)
 # Step 1: Load and preprocess the data
 # Load the dataset containing historical sequences of 6-digit numbers from the text file
 # Replace 'dataset.txt' with the path to your text file
-with open('full_historical_pancakeswap_plottery_winning_numbers.txt', 'r') as file:
+with open('Enter historical_data.txt', 'r') as file:
     lines = file.readlines()
 
 # Convert the data into a format suitable for LSTM training

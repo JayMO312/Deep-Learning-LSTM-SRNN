@@ -1,13 +1,15 @@
 # Deep-Learning-LSTM-SRNN
-Script employs LSTM neural networks to predict future numerical sequences. It loads, preprocesses &amp; splits historical data for training &amp; validation. Model is trained &amp; visualized, then utilized to forecast future sequences &amp; confidence rating. Adaptable to diverse datasets &amp; prediction needs, offers customizable parameters for optimal performance
+This script employs LSTM Symplectic Neural Networks to predict future numerical sequences. It loads, preprocesses &amp; splits historical data for training &amp; validation. Model is trained &amp; visualized, then utilized to forecast future sequences &amp; confidence rating. Adaptable to diverse datasets &amp; prediction needs, offers customizable parameters for optimal performance
 
 
 
 
 LSTM Sequence Prediction for Numerical Sequences
-This script utilizes a Long Short-Term Memory (LSTM) neural network to predict future sequences of numerical values. It trains on historical data and forecasts future sequences based on the learned patterns.
+The script utilizes a Long Short-Term Memory (LSTM) neural network to predict future sequences of numerical values. It trains on historical data and forecasts future sequences based on the learned patterns.
+
 
 Overview
+
 The script consists of the following main steps:
 
 Data Loading and Preprocessing: Loads historical sequences of numbers from a text file and preprocesses the data for LSTM training.
@@ -20,7 +22,9 @@ Model Training: Compiles and trains the LSTM model on the training data, monitor
 
 Prediction and Forecasting: Uses the trained model to predict future sequences of numbers, visualizing the predicted sequences over time.
 
+
 Requirements
+
 Python 3.x
 Libraries:
 numpy
@@ -30,6 +34,8 @@ tensorflow
 matplotlib
 Usage
 Ensure that you have Python installed on your system.
+
+
 Install the required libraries using pip:
 
 pip install numpy pandas scikit-learn tensorflow matplotlib
